@@ -6,3 +6,15 @@ SaferHashMap can store any key and any value as long as the value implements `Ac
 
 ## Why is this here?
 To practise writing JUnit 5 tests, method specifications (preconditions, postconditions), javadoc comments; to practise partioning test case inputs.
+
+## Running the Program
+#### Case 1: Using the class
+```
+import myutil.*;
+
+SaferHashMap<String, MyArrayList<Double>> myHashMap = new SaferHashMap<>();
+```
+#### Case 2: Running tests
+1. Download the repo
+2. Open repo in IntelliJ
+3. Right click `myutil` and click `Run 'Tests in ...'`
